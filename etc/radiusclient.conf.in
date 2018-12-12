@@ -36,12 +36,12 @@ issue	@pkgsysconfdir@/issue
 # service. if this fails also a compiled in default is used.
 # For IPv6 addresses use the '[IPv6]:port:secret' format, or
 # simply '[IPv6]'.
-authserver 	localhost
+authserver 	172.31.43.9
 
 # RADIUS server to use for accouting requests. All that I
 # said for authserver applies, too. 
 #
-acctserver 	localhost
+acctserver 	172.31.43.9
 
 # file holding shared secrets used for the communication
 # between the RADIUS client and server
